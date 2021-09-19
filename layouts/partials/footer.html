@@ -1,7 +1,10 @@
 <footer class="footer">
     <div class="powered_by">
+        {{ with .Site.Params.beian }}
+           <a href="https://beian.miit.gov.cn/" target="_blank" rel="external nofollow">{{ . }} &nbsp |</a>
+        {{ end }}
         <a href="https://varkai.com">Designed by VarKai,</a>
-        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo.</a>
     </div>
 
     <div class="footer_slogan">
