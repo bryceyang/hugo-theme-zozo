@@ -33,7 +33,7 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
     
-    <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" />
+    <link rel="shortcut icon" href="{{ "/assets/icons/favicon.svg" | absURL }}" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
